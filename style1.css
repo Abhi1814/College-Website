@@ -1,0 +1,487 @@
+#body_id{
+	background-color: ;
+}
+
+.dropdown {
+	position: relative;
+	
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	right: 0;
+	background-color:#f5f5f5;
+	min-width: 160px;
+	box-shadow: 1px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 20px 0px;
+}
+
+.dropdown-content a {
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color:royalblue
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color:#3e8e41;
+}
+
+#backgroundimage{
+	height:500px;
+	width:95%;
+	background-color:#F5F5F5 ;
+}
+
+#headline{
+	height:200px;
+	width:1300px;
+}
+
+#logo{
+	height:200px;
+	width:200px;
+	float:left;
+	border-radius:5px;
+}
+
+#college_name{
+	height:200px;
+	width:1100px;
+	float:right;
+}
+
+#gravity{
+	font-family:Goudy Stout;
+	font-size:100px;
+	width:1100px;
+	height:120px;
+	color:#ffffff;
+	background-color:#191970 ;
+	
+}
+
+#gravity_base{
+	font-family:tahoma;
+	font-size:30px;
+	width:1100px;
+	height:60px;
+	color:#ffffff;
+	background-color:#191970 ;
+}
+#space{
+	height:20px;
+	width:1100px;
+	background-color:#191970 ;
+}
+
+#td_color{
+	background-color:#D3D3D3;
+	text-align:center;
+	font-family:tahoma;
+	border-radius:5px;
+}
+
+#post{
+	position:absolute;                            /*border="0" width="1300px" height="80px"*/
+	top:220px;
+	left:30px;
+	height:80;
+	width:1300;
+	border:0;
+}
+
+#events{
+	height:300px;
+	width:1300px;
+	
+}
+
+#new_events{
+	height:300px;
+	width:45%;
+	background-color:#F5F5F5;
+	float:left;
+	font-family:tahoma;
+	color:#808080 ;
+	border-radius:5px;
+	border:5px solid grey;
+}
+
+#upcoming_events{
+	height:300px;
+	width:45%;
+	background-color:#F5F5F5;
+	float:right;
+	font-family:tahoma;
+	color:#808080 ;
+	border-radius:5px;
+	border:5px solid grey;
+}
+#mark1{
+	background-color:#F5F5F5;
+}
+
+#footer{
+	width:1320px;
+	height:150px;
+	background-color:#191970;
+	color:white;
+}
+
+#link1:link , #link1:hover, #link1:visited , #link1:active{
+	text-decoration:none;
+	color:black;
+	
+}
+
+#link2:link , #link2:hover, #link2:visited , #link2:active{
+	text-decoration:none;
+	color:white;
+}
+
+#whoweare{
+	height:800px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:tahoma;
+	color:white;
+	text-align:left;
+}
+
+#vision_mission{
+	text-align:left;
+	background-color:rgba(0,0,0,0.90);
+	font-family:tahoma;
+	height:1200px;
+	color:white;
+}
+
+#quality_policy_objective{
+	height:450px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:tahoma;
+	color:white;
+	text-align:left;
+}
+
+#chairman_messages{
+	height:300px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:tahoma;
+	color:white;
+	text-align:left;
+}
+
+#vice_chairmen_message{
+	height:300px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:tahoma;
+	color:white;
+	text-align:left;
+}
+
+#awards{
+	height:1650px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:tahoma;
+	color:white;
+	text-align:left;
+}
+
+#campus_facility{
+	height:1450px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:tahoma;
+	color:white;
+	text-align:left;
+}
+
+#h4_1{
+	color:red;
+}
+
+p{
+	color:white;
+}
+
+#p1{
+	color:grey;
+}
+
+#accomodation_facility{
+	height:1550px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:tahoma;
+	color:white;
+	text-align:left;
+}
+
+#academic_facility{
+	height:1850px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:tahoma;
+	color:white;
+	text-align:left;
+}
+
+#infrastructure{
+	height:1950px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:tahoma;
+	color:white;
+	text-align:left;
+}
+
+#gallery{
+	height:1950px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:tahoma;
+	color:white;
+	text-align:left;
+}
+
+#gallery_img{
+	background-color:rgba(0,0,0,0.60) ;
+	height:300px;
+	width:400px;
+	color:white;
+	position:absolute;
+	top:510px;
+	left:50px;
+	border-radius:5px;
+	font-family:arial;
+}
+
+#gallery_img1{
+	background-color:rgba(0,0,0,0.60) ;
+	height:300px;
+	width:400px;
+	color:white;
+	position:absolute;
+	top:510px;
+	left:480px;
+	border-radius:5px;
+	font-family:arial;
+}
+
+#gallery_img2{
+	background-color:rgba(0,0,0,0.60) ;
+	height:300px;
+	width:400px;
+	color:white;
+	position:absolute;
+	top:510px;
+	left:910px;
+	border-radius:5px;
+	font-family:arial;
+}
+
+
+#gallery_img3{
+	background-color:rgba(0,0,0,0.60) ;
+	height:270px;
+	width:400px;
+	color:white;
+	position:absolute;
+	top:860px;
+	left:150px;
+	border-radius:5px;
+	font-family:arial;
+}
+
+#gallery_img4{
+	background-color:rgba(0,0,0,0.60) ;
+	height:270px;
+	width:600px;
+	color:white;
+	position:absolute;
+	top:860px;
+	left:600px;
+	border-radius:5px;
+	font-family:arial;
+}
+
+#gallery_img5{
+	background-color:rgba(0,0,0,0.60) ;
+	height:320px;
+	width:600px;
+	color:white;
+	position:absolute;
+	top:1160px;
+	left:50px;
+	border-radius:5px;
+	font-family:arial;
+}
+
+#gallery_img6{
+	background-color:rgba(0,0,0,0.60) ;
+	height:320px;
+	width:600px;
+	color:white;
+	position:absolute;
+	top:1160px;
+	left:700px;
+	border-radius:5px;
+	font-family:arial;
+}
+
+#gallery_img7{
+	background-color:rgba(0,0,0,0.60) ;
+	height:320px;
+	width:400px;
+	color:white;
+	position:absolute;
+	top:1500px;
+	left:50px;
+	border-radius:5px;
+	font-family:arial;
+}
+
+#gallery_img8{
+	background-color:rgba(0,0,0,0.60) ;
+	height:320px;
+	width:400px;
+	color:white;
+	position:absolute;
+	top:1500px;
+	left:480px;
+	border-radius:5px;
+	font-family:arial;
+}
+
+#gallery_img9{
+	background-color:rgba(0,0,0,0.60) ;
+	height:320px;
+	width:400px;
+	color:white;
+	position:absolute;
+	top:1500px;
+	left:910px;
+	border-radius:5px;
+	font-family:arial;
+}
+#gallery_img10{
+	background-color:rgba(0,0,0,0.60) ;
+	height:340px;
+	width:470px;
+	color:white;
+	position:absolute;
+	top:1870px;
+	left:170px;
+	border-radius:5px;
+	font-family:arial;
+}
+
+#gallery_img11{
+	background-color:rgba(0,0,0,0.60) ;
+	height:340px;
+	width:470;
+	color:white;
+	position:absolute;
+	top:1870px;
+	left:670px;
+	border-radius:5px;
+	font-family:arial;
+}
+
+#corporate_speak{
+	height:2340px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:tahoma;
+	color:white;
+	text-align:left;
+}
+
+#placement_records{
+	height:4530px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:tahoma;
+	color:white;
+	text-align:left;
+}
+
+#table-view4{
+	color:white;
+}
+
+#corporate_resource_cell{
+	height:1000px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:arial;
+	color:white;
+	text-align:left;
+}
+
+#p2{
+	text-align:left;
+}
+
+#courses{
+	text-align:left;
+	height:650px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:arial;
+	color:white;
+}
+
+#p3{
+	color:rgba(167,171,164,1);
+	font-size:28px;
+}
+
+#p4{
+	color:rgba(196,16,16,1);
+	font-size:28px;
+}
+
+#registration{
+	text-align:left;
+	height:750px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:arial;
+	color:white;
+}
+
+#reg_1{
+	color:rgba(167,171,164,1);
+	font-family:arial;
+	font-size:25;
+}
+
+#feed{
+	color:white;
+	font-family:arial;
+	font-size:30;
+}
+
+#Feedback{
+	text-align:left;
+	height:800px;
+	width:1320px;
+	background-color:rgba(0,0,0,0.90);
+	font-family:arial;
+	color:white;
+}
